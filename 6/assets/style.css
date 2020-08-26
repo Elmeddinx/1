@@ -1,0 +1,185 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+a, a:hover {
+    text-decoration: none;
+}
+.navbar {
+    background-color: rgba(0, 0, 0, .8) !important;
+}
+/* Navbar Animation */
+.smart-scroll{
+    position: fixed;
+    z-index: 1030;
+}
+.scrolled-down{
+    transform:translateY(-100%); transition: all 0.3s ease-in-out;
+}
+.scrolled-up{
+    transform:translateY(0); transition: all 0.3s ease-in-out;
+}
+/* Navbar Animation */
+
+
+header {
+    height: 100vh;
+}
+.bgimage {
+    background-image: url("../img/1.webp") !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    height: 100vh;
+    width: 100% !important; 
+    position: absolute;
+    top: 0;
+    filter: brightness(40%);
+}
+
+header .card {
+    width: 50%;
+}
+.header-btn {
+    width: 150px !important;
+}
+.hr {
+    width: 40px !important;
+}
+.service-hr {
+    width: 2px !important;
+    height: 100px !important;
+}
+.icon {
+    width: 50px;
+    height: 50px;
+}
+.card-face {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+.card-details {
+    width: 100%;
+    display: none !important;
+    transform: translateY(100%);
+    transition: ease-in 0.5s;
+}
+.card-hover:hover .card-details {
+    display: flex !important;
+    transform: translateY(0);
+    transition: ease-out 0.5s;
+}
+
+  
+.pricing .card {
+    border: none;
+    border-radius: 1rem;
+    transition: all 0.2s;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+  
+.pricing .row hr {
+    margin: 1.5rem 0;
+}
+  
+.pricing .card-title {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+}
+  
+.pricing .card-price {
+    font-size: 3rem;
+    margin: 0;
+}
+  
+.pricing .card-price .period {
+    font-size: 0.8rem;
+}
+  
+.pricing ul li {
+    margin-bottom: 1rem;
+}
+  
+.pricing .text-muted {
+    opacity: 0.7;
+}
+  
+.pricing .btn {
+    font-size: 80%;
+    border-radius: 5rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+    opacity: 0.7;
+    transition: all 0.2s;
+}
+  
+.brand {
+    opacity: 0.5;
+}
+.brand:hover {
+    opacity: 1;
+}
+.parallax-bg {
+    background-image: url("/img/13.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.footer-card {
+    width: 50px;
+    height: 50px;
+}
+
+
+
+@media only screen and (max-width: 768px){
+    
+    header .card {
+        width: 100%;
+    }
+    header .row {
+        flex-direction: column;
+    }
+    .header-btn:nth-child(1) {
+        margin-bottom: 25px;
+    }
+    #about .row .card {
+        margin-top: 25px !important;
+    }
+    .service-hr {
+        display: none;
+    }
+    .services-col {
+        margin-bottom: 25px;
+    }
+    #our-team .col-md-3 {
+        margin-top: 25px;
+    }
+    .get-in-touch {
+        margin-top: 25px !important;
+    }
+    .parallax-bg .row .col-lg-3:nth-child(1) {
+        margin-bottom: 25px !important;
+    }
+    
+
+}
+  /* Hover Effects on Card */
+  
+@media (min-width: 992px) {
+    .pricing .card:hover {
+      margin-top: -.25rem;
+      margin-bottom: .25rem;
+      box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+    }
+    .pricing .card:hover .btn {
+      opacity: 1;
+    }
+}
