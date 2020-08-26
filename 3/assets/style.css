@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+hr {
+    width: 50px !important;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+section, footer {
+    margin-top: 100px !important;
+}
+nav {
+    background: #ffffff !important;
+}
+
+.navbar-brand {
+    margin-right: 40%;
+}
+
+/* Navbar Animation */
+
+.smart-scroll {
+    position: fixed;
+    z-index: 1030;
+}
+
+.scrolled-down {
+    transform: translateY(-100%);
+    transition: all 0.3s ease-in-out;
+    background-color: rgb(255, 255, 255) !important;
+}
+
+.scrolled-up {
+    transform: translateY(0);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Navbar Animation */
+
+header {
+    margin-top: 100px;
+}
+.section-title {
+    height: 150px !important;
+}
+
+.contact-i {
+    width: 35px;
+    height: 35px;
+    padding: 15px !important;
+}
+.about-bg {
+    background: #007FC4;
+}
+.work-bg {
+    background: #FFE763;
+}
+.contact-bg {
+    background: #ce40f5;
+}
+
+@media only screen and (max-width: 991px) {
+    .navbar-brand {
+        margin-right: 0;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .margin-t {
+        margin-top: 25px;
+    }
+    .margin-t {
+        margin-top: 25px;
+    }
+}
