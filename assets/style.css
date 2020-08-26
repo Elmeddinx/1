@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+hr {
+    width: 50px !important;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+.bg-color-main {
+    background: #815335;
+}
+
+.text-color-main {
+    color: #815335 !important;
+}
+
+.btn-main {
+    background: #815335;
+}
+
+.btn-main:hover, .btn-main:focus {
+    background: #4d311f;
+}
+
+.border-main {
+    border-color: #815335;
+}
+
+section, footer {
+    margin-top: 100px !important;
+}
+
+nav {
+    background: #815335 !important;
+}
+
+.nav-link {
+    font-size: 15px !important;
+}
+
+.navbar-brand {
+    margin-right: 40%;
+}
+
+/* Navbar Animation */
+
+.smart-scroll {
+    position: fixed;
+    z-index: 1030;
+}
+
+.scrolled-down {
+    transform: translateY(-100%);
+    transition: all 0.3s ease-in-out;
+    background-color: rgb(255, 255, 255) !important;
+}
+
+.scrolled-up {
+    transform: translateY(0);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Navbar Animation */
+
+header {
+    margin-top: 88px;
+}
+
+.social-links {
+    background: #815335;
+}
+
+.social-links, .social-links ul {
+    height: 90vh;
+}
+
+.social-links li {
+    transform: rotate(270deg);
+}
+
+.carousel-1, .carousel-2, .carousel-3, .carousel-4 {
+    width: 100% !important;
+    height: 90vh !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+.carousel-1 {
+    background-image: url("../img/04.jpg") !important;
+}
+
+.carousel-2 {
+    background-image: url("../img/02.jpg") !important;
+}
+
+.carousel-3 {
+    background-image: url("../img/03.jpg") !important;
+}
+
+.carousel-4 {
+    background-image: url("../img/01.jpg") !important;
+}
+
+.carousel-caption {
+    width: 100% !important;
+    height: 100% !important;
+    transform: translate(-15%, 40%);
+}
+
+.carousel-bg-filter {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.about-parallax {
+    background-image: url("../img/about-pr.jpg");
+    background-attachment: fixed;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+.about-parallax-inner {
+    background: rgba(0, 0, 0, 0.5) !important;
+    padding: 80px 50px !important;
+}
+
+.card-icon {
+    width: 60px;
+    height: 60px;
+}
+
+.engineer {
+    height: 100% !important;
+}
+
+.engineer-hover {
+    width: 290px;
+    height: 20%;
+    background: #815335;
+    position: absolute;
+    top: 80% !important;
+    transform: translateY(0%);
+    z-index: -1;
+    transition: all 0.4s ease-in-out;
+}
+
+.engineer:hover .engineer-hover {
+    transform: translateY(100%);
+    z-index: 1;
+}
+
+.see-more {
+    width: 200px;
+    margin-top: 50px;
+}
+
+.form-control {
+    border: none;
+    border-bottom: 1px solid #815335;
+}
+
+/* About Page */
+
+.ab-page-parallax, .srv-page-parallax, .wrk-page-parallax, .cnt-page-parallax {
+    height: 70vh;
+    background-attachment: fixed;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+.ab-page-parallax {
+    background-image: url("../img/about-pr.jpg");
+}
+.srv-page-parallax {
+    background-image: url("../img/services-pr.jpg");
+}
+.wrk-page-parallax {
+    background-image: url("../img/works-pr.jpg");
+}
+.cnt-page-parallax {
+    background-image: url("../img/contact-pr.jpg");
+}
+.ab-page-parallax .card, .srv-page-parallax .card, .wrk-page-parallax .card, .cnt-page-parallax .card {
+    background: rgba(0, 0, 0, 0.5);
+}
+.social-ul {
+    height: 70vh !important;
+}
+.cards-parallax {
+    background-image: url("../img/about-pr.jpg");
+    background-attachment: fixed;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+.about-cards {
+    height: 200px !important;
+}
+/* About Page */
+
+@media only screen and (max-width: 768px) {
+    .margin-t {
+        margin-top: 25px !important;
+    }
+    .margin-tx3 {
+        margin-top: 90px;
+    }
+    .social-links {
+        display: none;
+    }
+    .carousel-caption {
+        transform: translate(-15%, 20%);
+    }
+    .navbar-phone {
+        margin-left: 0 !important;
+    }
+}
+
+
+
+
+
