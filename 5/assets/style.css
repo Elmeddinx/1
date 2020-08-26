@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+hr {
+    width: 50px !important;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+section, footer {
+    margin-top: 100px !important;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.63) !important;
+}
+
+/* Navbar Animation */
+
+.smart-scroll {
+    position: fixed;
+    z-index: 1030;
+}
+
+.scrolled-down {
+    transform: translateY(-100%);
+    transition: all 0.3s ease-in-out;
+    background-color: rgb(255, 255, 255) !important;
+}
+
+.scrolled-up {
+    transform: translateY(0);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Navbar Animation */
+
+
+/* HEader */
+.bgimage {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/header1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    filter: brightness(40%);
+}
+
+
+
+.header-card {
+    width: 100%;
+    height: 100vh !important;
+}
+header span {
+    font-family: 'Kaushan Script', cursive !important;
+}
+header h1 {
+    font-size: calc(6.5vw + 25px);
+    font-family: 'Kaushan Script', cursive;
+}
+
+/* HEader */
+
+
+/* About */
+.s-icons a{
+    width: 35px;
+    height: 35px;
+    padding: 15px;
+}
+/* About */
+
+/* Our Chefs */
+.chefs-row {
+    margin-top: 150px;
+}
+.card-top {
+    width: 200px;
+    height: 200px;
+}
+.card-top img {
+    width: 200px;
+    position: relative;
+}
+/* Our Chefs */
+
+
+@media only screen and (max-width: 768px) {
+    .about-img {
+        margin-bottom: 25px;
+    }
+    .chefs-col {
+        margin-top: 100px;
+    }
+    #gallery .card {
+        margin-bottom: 25px;
+    }
+    #booktable .card {
+        margin-bottom: 25px;
+    }
+}
