@@ -1,0 +1,82 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    padding: 0;
+}
+a {
+    text-decoration: none !important;
+}
+header {
+    height: 100vh;
+    /* Change Header Image */
+    background-image: url("../img/4.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.navbar {
+   width: 80vw !important;
+   left: 10%;
+   top: 40px;
+}
+
+/* Navbar Animation */
+.smart-scroll{
+    position: fixed;
+    z-index: 1030;
+}
+.scrolled-down{
+    transform:translateY(-180%); transition: all 0.3s ease-in-out;
+}
+.scrolled-up{
+    transform:translateY(0); transition: all 0.3s ease-in-out;
+}
+/* Navbar Animation */
+
+.header-btn {
+    width: 100px;
+}
+#about {
+    margin-top: 150px !important;
+    margin-bottom: 150px !important;
+}
+
+.form-icons {
+    font-size: 50px !important;
+}
+.tooth {
+    font-size: 35px;
+}
+#doctors {
+    height: 120vh;
+}
+
+@media only screen and (max-width: 768px) {
+    .nav {
+        display: none !important;
+        background: #000 !important;
+    }
+    .header-title {
+        width: 300px;
+    }
+    .about {
+        margin-top: 50px !important;
+    }
+    .appointment {
+        margin-bottom: 50px !important;
+    }
+    .services-img {
+        margin-bottom: 50px !important;
+    }
+    .services-cols {
+        margin-bottom: 50px;
+    }
+    .contact-img {
+        margin-top: 50px !important;
+    }
+    .footer-about {
+        margin-bottom: 50px !important;
+    }
+}
