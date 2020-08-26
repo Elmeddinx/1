@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserat&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    font-family: 'Montserat', sans-serif;
+}
+hr {
+    width: 50px !important;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+section, footer {
+    margin-top: 100px !important;
+}
+nav {
+    background: #ffffff !important;
+}
+.search-bar {
+    display: flex;
+    height: 18vh;
+    background: #ffffff;
+    position: absolute;
+    z-index: 5555;
+}
+.toggle-exit {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    cursor: pointer;
+}
+.navbar-brand {
+    margin-right: 40%;
+}
+.notification{
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+    font-size: 10px;
+    background: #ff0000;
+    color: #ffffff;
+    position: absolute;
+    padding-left: 1.75px;
+}
+
+
+/* Navbar Animation */
+
+.smart-scroll {
+    position: fixed;
+    z-index: 1030;
+}
+
+.scrolled-down {
+    transform: translateY(-100%);
+    transition: all 0.3s ease-in-out;
+    background-color: rgb(255, 255, 255) !important;
+}
+
+.scrolled-up {
+    transform: translateY(0);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Navbar Animation */
+
+header {
+    margin-top: 10vh;
+    background: #D1E8E2;
+}
+header .card-title {
+    font-size: 60px;
+}
+.shop-now {
+    width: 150px;
+    padding: 12px !important;
+}
+.banner-1 {
+    background: #7956ca;
+}
+.banner-1 .card-title {
+    font-size: 40px;
+}
+.card-img-overlay {
+    width: 90% !important;
+    height: 90% !important;
+    background: rgba(0, 0, 0, 0.65);
+    top: 5%;
+    left: 5%;
+}
+.banner-2 .shop-now {
+    position: absolute;
+    bottom: 20%;
+    margin-top: 15px;
+}
+.fa-star {
+    color: #ffc801;
+}
+
+.bg-parallax {
+    height: 75vh;
+    background-image: url("../img/parallax.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+.bg-filter {
+    width: 100%;
+    height: 75vh;
+    position: absolute;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.205);
+}
+.bg-parallax .col-md-9 {
+    z-index: 2;
+}
+.bg-parallax p:nth-child(4) {
+    font-size: 10px;
+}
+.fab {
+    font-size: 25px !important;
+}
+.copyright {
+    font-size: 11px;
+}
+@media only screen and (max-width: 991px) {
+    .navbar-brand {
+        margin-right: 0;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .margin-t {
+        margin-top: 25px;
+    }
+    .margin-b {
+        margin-bottom: 25px;
+    }
+    .navbar-order {
+        order: 3;
+    }
+    .navbar-brand {
+        order: 1;
+    }
+    .navbar-other {
+        order: 1;
+    }
+    .banner-1 {
+        padding-top: 50px;
+    }
+    .banner-1 .row {
+        flex-direction: column-reverse;
+    }
+    .banner-1 * {
+        margin-left: 0 !important;
+    }
+    .banner-1 .card-title {
+        font-size: 35px;
+    }
+    .banner-1 .col-md-6 {
+        width: 80% !important;
+        margin-left: -50px !important;
+    }
+    .banner-2 .card-title {
+        font-size: 20px;
+        margin-bottom: 50px !important;
+    }
+    .banner-2 .shop-now {
+        position: absolute;
+        bottom: 5%;
+        margin-top: 15px !important;
+        width: 120px;
+        padding: 5px;
+    }
+    .bg-parallax {
+        height: 100vh;
+    }
+    .bg-filter {
+        height: 100vh;
+    }
+    .bg-parallax .form-group {
+        flex-direction: column;
+    }
+}
