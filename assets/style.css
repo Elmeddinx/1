@@ -16,23 +16,23 @@ a, a:hover {
 }
 
 .bg-color-main {
-    background: #815335;
+    background: #212297;
 }
 
 .text-color-main {
-    color: #815335 !important;
+    color: #212297 !important;
 }
 
 .btn-main {
-    background: #815335;
+    background: #212297;
 }
 
 .btn-main:hover, .btn-main:focus {
-    background: #4d311f;
+    background: #3032d4;
 }
 
 .border-main {
-    border-color: #815335;
+    border-color: #212297;
 }
 
 section, footer {
@@ -40,7 +40,7 @@ section, footer {
 }
 
 nav {
-    background: #815335 !important;
+    background: #212297 !important;
 }
 
 .nav-link {
@@ -76,7 +76,7 @@ header {
 }
 
 .social-links {
-    background: #815335;
+    background: #212297;
 }
 
 .social-links, .social-links ul {
@@ -96,7 +96,7 @@ header {
 }
 
 .carousel-1 {
-    background-image: url("../img/04.jpg") !important;
+    background-image: url("../img/01.jpg") !important;
 }
 
 .carousel-2 {
@@ -108,7 +108,7 @@ header {
 }
 
 .carousel-4 {
-    background-image: url("../img/01.jpg") !important;
+    background-image: url("../img/04.jpg") !important;
 }
 
 .carousel-caption {
@@ -148,7 +148,7 @@ header {
 .engineer-hover {
     width: 290px;
     height: 20%;
-    background: #815335;
+    background: #212297;
     position: absolute;
     top: 80% !important;
     transform: translateY(0%);
@@ -168,7 +168,7 @@ header {
 
 .form-control {
     border: none;
-    border-bottom: 1px solid #815335;
+    border-bottom: 1px solid #212297;
 }
 
 /* About Page */
