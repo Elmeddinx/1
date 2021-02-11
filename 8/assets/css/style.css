@@ -3,6 +3,10 @@
   font-family: "Cormorant", serif;
 }
 
+html {
+  scroll-behavior: smooth !important;
+}
+
 nav {
   width: 100% !important;
   min-height: 100px !important;
