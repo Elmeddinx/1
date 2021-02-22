@@ -1,0 +1,31 @@
+.blogs-header {
+    .card {
+        height: 450px !important;
+        overflow: hidden;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+            filter: brightness(0.6);
+            transition: all 0.8s;
+        }
+        .card-img-overlay {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            h3 {
+                display: block;
+                padding: 10px 25px;
+                font-size: 1.4em;
+                letter-spacing: 2px;
+                color: #ffffff;
+                background: rgba(0, 0, 0, 0.693);
+            }
+        }
+        &:hover img {
+            scale: 1.2;
+            transition: all 0.8s;
+        }
+    }
+}

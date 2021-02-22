@@ -1,0 +1,49 @@
+
+.works {
+    .row {
+        .col-md-3 {
+            padding: 0;
+            a {
+                text-decoration: none;
+            }
+            .hover-img {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                z-index: 1;
+                overflow: hidden;
+                img {
+                    width: 0%;
+                    opacity: 0;
+                    height: 100%;
+                    object-position: center;
+                    object-fit: cover;
+                    transition: 0.1s;
+                }
+            }
+            &:hover {
+                .hover-img {
+                    img {
+                        width: 100%;
+                        opacity: 1;
+                        transition: 0.1s;
+                    }
+                }
+            }
+            .card {
+                padding: 50px 25px;
+                height: 500px;
+                border: 1px solid #ffffff80;
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+                h3 {
+                    color: var(--white-color);
+                }
+                span {
+                    color: var(--white-color);
+                }
+            }
+        }
+    }
+}
