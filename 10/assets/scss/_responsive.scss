@@ -1,0 +1,12 @@
+@media only screen and (max-width: 768px){
+    nav {
+        left: -60px;
+        &:hover, &.active {
+            left: 0;
+            width: 100%;
+        }
+    }
+    .charts {
+        margin-bottom: 25px;
+    }
+}
