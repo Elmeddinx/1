@@ -6,7 +6,7 @@ let body = document.querySelector('body');
 let fullPageY = body.scrollHeight;
 let dataTheme = document.querySelector('html');
 // Lines Cont Height
-linesCont.style.minHeight = `${fullPageY + 80}px`;
+// linesCont.style.minHeight = `${fullPageY + 80}px`;
 // Toggle Menu
 toggleIcon.addEventListener("click", () => {
   toggleMenu.style.transform = "translateY(0)";
